@@ -38,6 +38,7 @@ $config
     ->setRiskyAllowed(true)
     ->setRules([
         '@PSR12' => true,
+        'return_type_declaration' => true,
         '@PhpCsFixer' => true,
         '@PhpCsFixer:risky' => true,
     ])
