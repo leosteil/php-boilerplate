@@ -45,4 +45,4 @@ jobs:
       - name: PHP-CS-Fixer
         uses: docker://oskarstark/php-cs-fixer-ga
         with:
-          args: --dry-run
+          args: --diff --dry-run
