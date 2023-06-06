@@ -1,0 +1,18 @@
+{
+    "name": "leonardo/php-boilerplate",
+    "description": "php boilerplate project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leonardo\\PhpBoilerplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "leosteil",
+            "email": "lsteil@inf.ufsm.br"
+        }
+    ],
+    "require": {}
+}
