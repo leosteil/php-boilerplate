@@ -6,7 +6,5 @@ class FirstClass
 {
     public function testing()
     {
-
     }
-
 }
