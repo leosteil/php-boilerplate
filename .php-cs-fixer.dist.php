@@ -25,7 +25,7 @@ $header = <<<'EOF'
 $finder = PhpCsFixer\Finder::create()
     ->ignoreDotFiles(false)
     ->ignoreVCSIgnored(true)
-    ->exclude(['dev-tools/phpstan', 'tests/Fixtures', '.php-cs-fixer.dist.php'])
+    ->exclude(['dev-tools/phpstan', 'tests/Fixtures'])
     ->in(__DIR__)
     ->append([
         __DIR__.'/dev-tools/doc.php',
@@ -37,6 +37,7 @@ $config = new PhpCsFixer\Config();
 $config
     ->setRiskyAllowed(true)
     ->setRules([
+        '@PSR12' => true,
         '@PHP74Migration' => true,
         '@PHP74Migration:risky' => true,
         '@PHPUnit100Migration:risky' => true,
