@@ -6,7 +6,7 @@ namespace Leonardo\PhpBoilerplate;
 
 class FirstClass
 {
-    public function testing(): bool
+    public function testing()
     {
         return true;
     }
