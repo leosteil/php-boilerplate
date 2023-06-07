@@ -40,7 +40,7 @@ jobs:
         env:
           REQUIRE_DEV: true
         with:
-          args: analyse src/ --level=0
+          args: analyse src/ --level=8
 
       - name: PHP-CS-Fixer
         uses: docker://oskarstark/php-cs-fixer-ga
